@@ -14,36 +14,35 @@
         <a href="{{ url('/product/1') }}" class="mt-6 px-6 py-2 bg-black text-white rounded-full inline-block">Order Now</a>
     </div>
     <div class="md:w-1/2 p-6 relative">
-        <img alt="Nike Air Max Purple Edition" class="relative z-10" height="300" src="{{ asset('images/sepatumain1.png') }}" width="500"/>
-        <div class="absolute top-0 right-0 w-64 h-64 bg-purple-500 rounded-full z-0"></div>
+        <img src="{{ asset('images/sepatumain1.png') }}" alt="Nike Air Max Purple Edition" class="relative z-10 w-3/4 mx-auto" />
+        <div class="absolute top-0 right-0 w-64 h-64 bg-purple-500 rounded-full -z-10"></div>
     </div>
 </section>
 
 <!-- Trending Shoes Section -->
 <section class="text-center py-10">
     <h2 class="text-2xl font-bold">TRENDING SHOES</h2>
-    <div class="flex justify-center space-x-4 mt-6">
-        <div class="w-1/3 p-4 bg-gray-100 rounded-lg">
+    <div class="flex flex-wrap justify-center gap-4 mt-6">
+        <div class="w-full sm:w-1/3 p-4 bg-gray-100 rounded-lg">
             <a href="{{ url('/product/2') }}">
-                <img alt="Trending Shoe 1" height="150" src="{{ asset('images/sepatumain2.png') }}" width="200"/>
+                <img src="{{ asset('images/sepatumain2.png') }}" alt="Purple Nike Air Max - Trending Shoe 1" class="w-3/4 mx-auto" />
             </a>
         </div>
-        <div class="w-1/3 p-4 bg-gray-100 rounded-lg">
+        <div class="w-full sm:w-1/3 p-4 bg-gray-100 rounded-lg">
             <a href="{{ url('/product/3') }}">
-                <img alt="Trending Shoe 2" height="150" src="{{ asset('images/sepatumain3.png') }}" width="200"/>
+                <img src="{{ asset('images/sepatumain3.png') }}" alt="Blue Nike Air Max - Trending Shoe 2" class="w-3/4 mx-auto" />
             </a>
         </div>
-        <div class="w-1/3 p-4 bg-gray-100 rounded-lg">
+        <div class="w-full sm:w-1/3 p-4 bg-gray-100 rounded-lg">
             <a href="{{ url('/product/4') }}">
-                <img alt="Trending Shoe 3" height="150" src="{{ asset('images/sepatumain4.png') }}" width="200"/>
+                <img src="{{ asset('images/sepatumain4.png') }}" alt="Red Nike Air Max - Trending Shoe 3" class="w-3/4 mx-auto" />
             </a>
         </div>
     </div>
 </section>
 
 <!-- Stats Section -->
-<section class="relative">
-    <img alt="Background image with shoes" class="w-full h-64 object-cover" height="400" src="{{ asset('images/bannermain.png') }}" width="1200"/>
+<section class="relative bg-cover bg-center h-64 bg-[url('{{ asset('images/bannermain.png') }}')]">
     <div class="absolute inset-0 flex justify-around items-center text-white text-center">
         <div>
             <h3 class="text-2xl font-bold">500K+</h3>

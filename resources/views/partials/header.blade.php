@@ -1,5 +1,5 @@
 <nav class="flex items-center justify-between p-6">
-    <img alt="Nike logo" class="h-8" src="{{ asset('images/nike-logo.png') }}" />
+    <img alt="Nike logo" class="h-8" src="{{ asset('images/logo.png') }}" />
     <ul class="flex space-x-8">
         <li><a class="text-lg" href="{{ url('/') }}">Home</a></li>
         <li><a class="text-lg" href="{{ url('/product') }}">Product</a></li>
